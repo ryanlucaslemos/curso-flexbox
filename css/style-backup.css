@@ -1,0 +1,24 @@
+.container {
+    background-color: #ccc;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    /*
+    flex-grow: 1; 
+        relacionado com a largura
+        se for um valor maior o item tentará ocupar o espaço extra
+    
+    flex-shrink: 1;
+    flex-basis: 20px;
+
+    flex: 1 1 200; mesmo que fazer o grow, shrink e o basis 
+    */
+}
